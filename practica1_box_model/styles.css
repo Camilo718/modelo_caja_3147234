@@ -10,29 +10,62 @@
     -los elementos tienen contenido
     -y tiene uun tamaño de contenido */
 
+
+    /*MARGIN:
+    - determina el espacio entre los elementos
+    -solo aplica a elementos display block
+    -computado de margenes
+    -colapsp de margenes
+    */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 .box{
-border-top-color: rgb(241, 12, 12); border-top-style: groove;
-border-top-width: 15px;
-border-right-color: chartreuse;
+border-top-color: rgb(190, 175, 175);
+border-top-style: solid;
+border-top-width: 10px;
+
+border-right: 10px dotted rgb(15, 129, 133);
 border-right-style: dashed;
 border-right-width: 10px;
-border-bottom-color: rgb(0, 255, 106);
+
+border-bottom-color: rgb(127, 122, 131);
 border-bottom-style: double;
-border-bottom-width: 16px;
-border-left-color: rgb(20, 220, 137);
+border-bottom-width: 10px;
+
+border-left-color: rgb(143, 80, 226);
 border-left-style: solid;
 border-left-style: 17px;
 }
-.box1{
-display: block;
-padding: 50px 3px 45px;
-background-color: rgb(46, 144, 224);
-height: 100px;
 
+.box1{
+margin: 20px 40px;
+background-color: rgb(27, 176, 187);
+padding: 50px 45px 2px;
+display:block;
+height: 100px;
+width: 300px;
+overflow: hidden;
+border-bottom-left-radius: 50px;     /*se manipula las esquinas*/
+border-bottom-right-radius: 10px;
+border-top-left-radius: 5px;
+border-top-right-radius: 10px;
 }
+
 .box2{
-display: block;
-padding: 2px 4px 6px 8px;
-background-color: rgb(189, 114, 250);
+background-color: rgb(118, 116, 121);
+padding: 2px 4px 6px 8px ;
+display:block;
 height: 200px;
+width: 200px;
+padding: 65px;
+opacity: 0.5;
+text-align: center;
+justify-content: center;
+margin-top: 100px;
+border-radius: 50%;
+margin: 100px;
 }
