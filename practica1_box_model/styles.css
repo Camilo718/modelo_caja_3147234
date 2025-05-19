@@ -1,0 +1,38 @@
+/*box model: 
+-display: block;
+-solo funciona en elementos display block
+-div la tiene por defecto
+-funciona si las cajitas o los elementos tiene algun contenido
+-comportamiento por defecto:
+    -ocupa tdo el ancho de la pantalla 
+    -altura depende del contenido
+-como funciona:
+    -los elementos tienen contenido
+    -y tiene uun tamaño de contenido */
+
+.box{
+border-top-color: rgb(241, 12, 12); border-top-style: groove;
+border-top-width: 15px;
+border-right-color: chartreuse;
+border-right-style: dashed;
+border-right-width: 10px;
+border-bottom-color: rgb(0, 255, 106);
+border-bottom-style: double;
+border-bottom-width: 16px;
+border-left-color: rgb(20, 220, 137);
+border-left-style: solid;
+border-left-style: 17px;
+}
+.box1{
+display: block;
+padding: 50px 3px 45px;
+background-color: rgb(46, 144, 224);
+height: 100px;
+
+}
+.box2{
+display: block;
+padding: 2px 4px 6px 8px;
+background-color: rgb(189, 114, 250);
+height: 200px;
+}
